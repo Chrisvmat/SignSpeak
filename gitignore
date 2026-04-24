@@ -1,0 +1,44 @@
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+
+# ─── Virtual Environments ─────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+.env
+
+# ─── PyInstaller Build Artifacts ──────────────────────────────────────────────
+# The .exe and build intermediates — distribute via GitHub Releases instead
+build/
+dist/
+*.spec.bak
+# Note: SignSpeak.spec IS committed — needed to rebuild the .exe from source
+
+# ─── TTS Temp File ────────────────────────────────────────────────────────────
+signspeak_tts.mp3
+
+# ─── Old Organisational Folder ────────────────────────────────────────────────
+{colab,app,utils}/
+
+# ─── Jupyter Checkpoints ──────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ─── OS / Editor ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ─── Logs & Temp ──────────────────────────────────────────────────────────────
+*.log
+*.tmp
