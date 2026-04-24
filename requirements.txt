@@ -1,0 +1,22 @@
+# SignSpeak v2.0 — Python Dependencies
+# Install with: pip install -r requirements.txt
+# Python 3.10+ recommended
+# ─────────────────────────────────────────
+
+# Core vision & ML
+mediapipe>=0.10.0
+opencv-python>=4.8.0
+tensorflow>=2.13.0
+numpy>=1.24.0
+
+# Text-to-speech (runtime — both required)
+gTTS>=2.3.0
+pygame>=2.5.0
+
+# Data processing (used in training/collection scripts only)
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Visualization (Colab training only — not needed to run the app)
+# matplotlib>=3.7.0
+# seaborn>=0.12.0
