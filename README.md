@@ -26,13 +26,12 @@ The model achieves **~99.5% test accuracy** across 43 sign classes and runs enti
 
 ---
 
-## Supported Signs — 43 Classes
+## Supported Signs — 36 Classes
 
 | Category | Signs |
 |---|---|
 | **Letters** | A – Z (26 signs) |
-| **Digits** | 1 – 9 (9 signs) |
-| **Words** | Hello · Thank You · Yes · No · Please · Sorry · Help · More (8 signs) |
+| **Digits** | 1 – 10 (10 signs) ||
 
 ---
 
